@@ -1,10 +1,9 @@
 ### Estatística Descritiva com R
-?iris
-?starwars
 #Carregando pacote
 pacman::p_load(dplyr, closure)
 
-#Visualizar estrutura da tabela
+#Visualizar informações e estrutura da tabela
+?starwars
 starwars
 
 #substituir valores NA por 0 nas colunas Height e Mass
