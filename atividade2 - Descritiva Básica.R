@@ -2,8 +2,7 @@
 #Carregando pacote
 pacman::p_load(dplyr, closure)
 
-#Visualizar informações e estrutura da tabela
-?starwars
+#Visualizar estrutura da tabela
 starwars
 
 #substituir valores NA por 0 nas colunas Height e Mass
