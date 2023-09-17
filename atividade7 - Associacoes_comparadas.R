@@ -5,7 +5,7 @@ pacman::p_load(ccaPP, lsa, minerva, Rfast, dplyr)
 starwars
 
 #substituir valores NA por 0 nas colunas Altura e Peso
-#starwars$height[is.na(starwars$height)] = 0
+starwars$height[is.na(starwars$height)] = 0
 starwars$mass[is.na(starwars$mass)] = 0
 starwars$birth_year[is.na(starwars$birth_year)] = 0
 
